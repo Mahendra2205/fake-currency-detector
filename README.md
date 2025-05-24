@@ -22,3 +22,15 @@ ake-currency-detector/
 │ └── Dockerfile
 ├── frontend/
 │ └── app.py <- Streamlit UI
+
+
+---
+
+## 🚀 How to Run Locally
+
+### ▶️ 1. Start the FastAPI backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
